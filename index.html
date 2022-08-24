@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js'> </script> <!-- Importar js deliver  -->
+    <!-- importar Font awesome icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!-- Imprtar bootstrap antes que CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Importo los iconos de bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel='stylesheet' href='styles.css'> 
+    <title> Documentamos tu obra </title>
+</head>
+
+<body>
+    
+    <!-- Boton de Whatsapp-->
+    <a href="https://api.whatsapp.com/send?phone=5491151193321&text=Hola,%20quisiera%20contactarlos%20para%20desarrollar%20un%20proyecto." class="float" target="_blank">
+        <i class="fa fa-whatsapp my-float"></i> 
+    </a>
+
+        
+<!-- ~~~  ~~~  ~~~  ~~~  ~~~  ~~~  ~~~   -->       
+<!-- EMPIEZA EL HEADER + NAV -->
+
+<header class="header">
+
+    <a href="#" class="logo">
+        <img src="imgs/logo.png" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href="#home">Inicio</a>
+        <a href="#about">Sobre mi</a>
+        <a href="#menu">Proyectos</a>
+        <a href="#about-municipales">Tramitaciones</a>
+        <a href="#about-obras">Documentación de obra</a>
+        <a href="#about-renders">Renders</a>
+        <a href="#contact">Contacto</a> 
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+</header>
+<!-- TERMINA  EL HEADER+ NAV -->
+
+
+<!-- ~~~  ~~~  ~~~  ~~~  ~~~  ~~~  ~~~   -->       
+<!-- EMPIEZA  HOME-->
+
+<section class="home" id="home">
+<div class="content"> 
+    <h3> Documentamos tu obra </h3>
+    <p> Reformas • Diseños • Planos • Tramites </p>
+    <a class="btn-custom" href="cv.html" > Ver CV </a>
+
+
+
+</div>
+
+</section>
+
+<!-- TERMINA  HOME-->
+
+<!-- ~~~  ~~~  ~~~  ~~~  ~~~  ~~~  ~~~   -->       
+
+<!-- EMPIEZA ABOUT-->
+
+
+<section class="about" id="about">
+<h1 class="heading"> <span> Sobre </span> mi </h1>
+<div class="row">
+    <div class="my-video">
+            <video width="30%" height="20%"  autoplay muted loop>
+                <source src="videos/reel.mp4" type="video/mp4">
+            </video>
+    </div>
+    
+    <div class="content">
+        <h3> Arquitecta Brenda Sandol </h3>
+        <p> Me gradué con honores en FADU UBA en el año 2008. Me desarrollé como arquitecta diagramando viviendas familiares. </p>
+        <p> 
+            Desarrollamos nuestros proyectos apoyados en un equipo multidisciplinario conformado por arquitectos, ingenieros y consultores de apoyo.
+            Nuestras propuestas buscan la calidad espacial y constructiva, considerando prácticas amigables con el medio ambiente. </p>
+    
+    </div>
+</div>
+
+
+</section>
+
+
+<!-- TERMINA ABOUT-->
+
+
+
+<!-- ~~~  ~~~  ~~~  ~~~  ~~~  ~~~  ~~~   -->       
+<!-- EMPIEZA  MENU PROYECTOS-->
+<section class="menu" id="menu">
+
+    <h1 class="heading"> Nuestros <span> proyectos </span> </h1>
+
+    <div class="box-container"> 
+
+        <div class="box">
+            <img src = 'imgs/casaChacra_logo.jpg' alt='casa chacra'> 
+            <h3> Casa Chacra </h3>
+            <p> Vivienda unifamiliar en el barrio privado Altos de Matheu. </p>
+            <a href="casaChacra.html" class="btn-custom">Ver mas</a>
+
+          
+        </div>
+
+        <div class="box">
+            <img src = 'imgs/casaPeriscopio_logo.jpg' alt='casa periscopio'> 
+            <h3> Casa Periscopio </h3>
+            <p> Vivienda unifamiliar en el barrio privado Altos del Pilar. </p>
+            <a href="casaPeriscopio.html" class="btn-custom">Ver mas</a>
+
+        </div>
+
+        <div class="box">
+            <img src = 'imgs/casaTorre_logo.jpg' alt=' casa torre'> 
+            <h3> Casa Torre </h3>
+            <p> Vivienda unifamiliar en el barrio privado Las Campanillas. </p>
+            <a href="casaTorre.html" class="btn-custom">Ver mas</a>
+
+        </div>
+        <div class="box">
+            <img src = 'imgs/casaAquino_logo.jpg' alt='casa aquino'> 
+            <h3> Casa Aquino </h3>
+            <p> Vivienda unifamiliar en La reserva Cardales. </p> 
+            <a href="casaAquino.html" class="btn-custom">Ver mas</a>
+
+        </div>
+
+        <div class="box">
+            <img src = 'imgs/casaSanAgustin_logo.jpg' alt=' casa san agustin'> 
+            <h3> Casa San Agustín </h3>
+            <p> Vivienda unifamiliar en Haras Santa María. </p>
+            <a href="casaSanAgustin.html" class="btn-custom">Ver mas</a>
+
+        </div>
+
+        <div class="box">
+            <img src = 'imgs/casaSantaLuciaFrente_logo.jpg' alt=' casa santa lucia'> 
+            <h3> Casa Santa Lucía </h3>
+            <p> Vivienda unifamiliar de fin de semana en el barrio privado La Madrugada II. </p> 
+            <a href="casaSantaLucia.html" class="btn-custom">Ver mas</a>
+
+        </div>
+
+        <div class="box">
+            <img src = 'imgs/reformaBermu_logo.jpg' alt=' casa santa lucia'> 
+            <h3> Reforma Bermu </h3>
+            <p> Vivienda unifamiliar en el corazón de Villa Urquiza. </p> 
+            <a href="reformaBermu.html" class="btn-custom">Ver mas</a>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- TERMINA MENU PROYECTOS-->
+
+
+
+
+
+<!-- EMPIEZA SECCION TRAMITACIONES MUNICIPALES-->
+<!-- Uso mismas clases para reutilizar codigo -->
+
+    
+<section class="about" id="about-municipales">
+    <h1 class="heading"> <span> Tramitaciones  </span> municipales </h1>
+    <div class="row">
+     
+       
+        <div class="content">
+            <h3> Habilitaciones municipales </h3>
+             <p> Podemos habilitarte tu local, tu institución, tu empresa, tu casa. Contamos con profesionales matriculados para cada área y gestoría para las tramitaciones ante los organismos municipales. </p>
+
+             <ul>
+                <li>CABA</li>
+                <li>Escobar</li>
+                <li>Pilar</li>
+                <li>Lanus</li>
+              </ul>      
+        </div>
+
+        <div class="grilla-fotos">
+            <img src="imgs/muni1.jpg" alt="">
+            <img src="imgs/muni2.jpg" alt="">
+            <img src="imgs/muni3.jpg" alt="">
+            <img src="imgs/muni4.png" alt="">
+        </div>
+
+
+    </div>
+    </section>
+    
+    <!-- TERMINA  SECCION TRAMITACIONES MUNICIPALS-->
+
+
+
+
+
+<!-- EMPIEZA SECCION DOCUMENTACIONES DE OBRA-->
+<!-- Uso mismas clases para reutilizar codigo -->
+
+<section class="about" id="about-obras">
+    <h1 class="heading">  Documentaciones <span> de obra  </span> </h1>
+    <div class="row">
+    
+
+        <div class="grilla-fotos">
+            <img src="imgs/planos1.jpg" alt="">
+            <img src="imgs/planos2.jpg" alt="">
+            <img src="imgs/planos3.jpg" alt="">
+            <img src="imgs/planos4.jpg" alt="">
+        </div>
+        
+        <div class="content">
+            <h3> Confección de planos </h3>
+            <p> Realizamos todo tipo de planos para habilitaciones municipales, mensura y subdivisión, finales de obra. Planos para solicitud de créditos bancarios y PRO.CRE.AR. Documentación de proyectos integrales de arquitectura. Pliegos para licitaciones.</p>
+
+            <ul>
+                <li>Regularizaciones de obras no declaradas</li>
+                <li>Planos eléctricos</li>
+                <li>Planos sanitarios </li>
+                <li>Planos contra incendio e instalaciones termo mecánica </li>
+              </ul>                
+        </div>
+
+    </div>
+    </section>
+    
+    <!-- TERMINA  SECCION TRAMITACIONES MUNICIPALS-->
+
+
+
+
+<!-- EMPIEZA SECCION RENDERS->
+<!-- Uso mismas clases para reutilizar codigo -->
+
+<section class="about" id="about-renders">
+    <h1 class="heading"> <span>  Renders  </span> </h1>
+    <div class="row">
+    
+
+        <div class="content">
+            <h3> Renderizado de proyectos </h3>
+            
+            <p> La visualización arquitectónica es el proceso de tomar un diseño de arquitectura en 2D, modelarlo en 3D, asignar materialidad, simular condiciones de iluminación ambiental real y luego generar una imagen que permite visualizar la intención que el arquitecto quiere comunicar a terceras personas.</p>
+            <p> La realidad virtual es una herramienta clave para sumergir al cliente en tu proyecto. Te ayudarán a sentirte en el espacio mismo como si estuvieras ahí.</p>
+        </div>
+
+        <div class="grilla-fotos">
+            <img src="imgs/render1.jpg" alt="">
+            <img src="imgs/render2.jpg" alt="">
+            <img src="imgs/render3.jpg" alt="">
+            <img src="imgs/render4.jpg" alt="">
+        </div>
+        
+      
+
+    </div>
+    </section>
+    
+    <!-- TERMINA  SECCION RENDERS-->
+
+
+
+<!-- ~~~  ~~~  ~~~  ~~~  ~~~  ~~~  ~~~   -->       
+<!-- EMPIEZA SECCION CONTACTO-->
+
+<section class="contact" id="contact">
+    <h1 class="heading"> <span>Contactanos</span></h1>    
+    <div class="row">
+
+
+        <!-- MAPA -->
+        <iframe class=map src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.619058380119!2d-58.507590985195804!3d-34.588504364199366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb64b84137ffb%3A0x321510e712ef4cd9!2sAv.%20Gral.%20Mosconi%203158%2C%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1ses!2suk!4v1660500261048!5m2!1ses!2suk" width="250" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!--FORMULARIO-->
+        <form action="https://formsubmit.co/0643f4f441e6c66cb3db8f6d914e9d7b" method="POST" autocomplete="off">
+            <input type="hidden" name="_captcha" value="false">
+            <!-- <input type="hidden" name="_next" value="success.html">  -->
+            <!-- Honeypot starts--> 
+            <!--Evitar spammers: evita que un codigo creado por un spammer llene y envie forms de manera descontrolada-->
+            <input type="text" name="_honey" style="display: none;"> <!-- Genero un input vacio, pero no lo muestro, entonces si un programa que lee codigo quiere llenarlo no podra.-->
+            <input type='hidden' name="_captcha" value="false">   <!--Remuevo el captcha-->
+            <!-- Honeypot ends-->
+            
+            <h3> Contactate con nosotros</h3>
+
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text"  name='Nombre&nbsp;y&nbsp;Apellido' class= "name" placeholder="Nombre y apellido">
+            </div>
+
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" name="Email" class = "email" placeholder="Email">
+            </div>
+
+            
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="number" name='Telefono' class="phone" placeholder="Telefono de contacto" >
+            </div>
+
+            <div class="inputBox">
+                <span class="fas fa-comment-alt"></span>
+                <input type="message"   name="Mensaje" class='message' placeholder="Mensaje" >
+                
+            </div>
+
+            <div class="status"> </div> <!--div vacio que sera llenado por subjectElm en JS-->
+
+            <button type="reset" value='Reset'  class="btn-custom"> Borrar </button>
+            <button type="submit" class="btn-custom-form">  Enviar   </button>
+        </form>
+    </div>
+
+
+
+</section>
+
+<!-- TERMINA SECCION CONTACTO-->
+
+<!-- ~~~  ~~~  ~~~  ~~~  ~~~  ~~~  ~~~   -->       
+<!-- EMPIEZA FOOTER-->
+
+<section class="footer">
+
+    <div class="share">
+    
+    <a href="https://www.linkedin.com/" class="fab fa-linkedin-in"></a>
+    <a href="https://www.instagram.com/dto_arquitectura/?hl=es-la" class="fab fa-instagram"></a>
+    <a href="https://api.whatsapp.com/send?phone=5491151193321" class="fab fa-whatsapp"></a>
+    </div>
+
+
+
+<div class="credit"> Creado por <span>Yair Barnatan</span> | Todos los derechos reservados   </div>
+
+
+</section>
+
+<!-- TERMINA FOOTER-->
+
+
+<script src="script.js"></script> <!-- Importar script JS  -->
+
+</body>
+</html>
