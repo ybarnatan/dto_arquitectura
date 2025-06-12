@@ -4,7 +4,7 @@ This is a simple, responsive landing page for an **architecture website**, built
 
 ## 🚀 Live Demo
 
-[View Live Demo]([#](https://dto-arquitectura.netlify.app/)) <!-- Replace with GitHub Pages link if available -->
+[View Live Demo](https://dto-arquitectura.netlify.app/)
 
 
 ## 🌟 Features
